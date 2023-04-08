@@ -48,7 +48,7 @@ Es un comentario de **Alicia** que nos dice:
 <br>
 > Sólo aquellos que ven lo invisible pueden ver lo que no hay ahí.
 
-Es algo extraño que no estén diciendo esto, pero en unos instantes y más adelante tendrá sentido.
+Es algo extraño que nos estén diciendo esto, pero en unos instantes y más adelante tendrá sentido.
 
 Si bajamos hasta abajo del todo veremos el link hacia la imagen del principio:
 
@@ -111,7 +111,7 @@ User alicia may run the following commands on visions:
 
 Vemos que como **Emma** podemos ejecutar el binario de **NetCat** sin necesidad de proporcionar contraseña.
 
-Como muchos sabéis **NnetCat** sirve para establecer conexiones entre equipos, por lo que nos podemos aprovechar y enviarnos una `Shell` a nuestro equipo y así ganar acceso como **Emma**.
+Como muchos sabéis **NetCat** sirve para establecer conexiones entre equipos, por lo que nos podemos aprovechar y enviarnos una `Shell` a nuestro equipo y así ganar acceso como **Emma**.
 
 Primero de todo será necesario ponernos en escucha en nuestro equipo para así recibir la conexión, en mi caso por el puerto `4444`.
 
@@ -229,7 +229,7 @@ Antes de proceder con **John** tenemos que pasar la clave `SSH` a un formato que
 └─# ssh2john isabella.priv_ssh > hash.txt
 ```
 
-Ahora sí, ya tenemos todo lo necesario para aplicar **fuerza bruta** sobre la clave enconntrada:
+Ahora sí, ya tenemos todo lo necesario para aplicar **fuerza bruta** sobre la clave encontrada:
 
 ```sh
 ┌──(root㉿kali)-[~/Desktop/VMs/HMV/Visions]
@@ -316,4 +316,4 @@ x7Itf3P39SxqlP2pQwAAAAxyb290QHZpc2lvbnMBAgMEBQ==
 -----END OPENSSH PRIVATE KEY-----
 ```
 
-¡Ennhorabuena! Ya tenemos la clave privada `RSA` de `root`, por lo que ya tenemos acceso total a la máquina. ¡Qué fácil!
+¡Enhorabuena! Ya tenemos la clave privada `RSA` de `root`, por lo que ya tenemos acceso total a la máquina. ¡Qué fácil!
