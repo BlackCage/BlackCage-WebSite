@@ -12,7 +12,7 @@ tags: [HMV, Enumeration, EXIF, Brute Force]
 ![dark mode only](/assets/img/imgs/visions/logo_black.png){: .dark }
 
 # Reconocimiento
-### NMAP
+## NMAP
 ```
 # Nmap 7.93 scan initiated Fri Apr  7 13:39:29 2023 as: nmap -sCV -p22,80 -oN targeted 192.168.1.103
 Nmap scan report for 192.168.1.103
@@ -36,7 +36,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 Vemos que el puerto `22` está abierto y que la versión no es la más actual, por desgracia no nos podemos aprovechar.
 
-### Inspección Manual
+## Inspección Manual
 Al entrar a la página vemos una imagen en blanco, sin ninguna información aparente. Tras inspeccionar el código fuente nos encontramos lo siguiente:
 
 ![comment](/assets/img/imgs/visions/comentario.png)
@@ -57,7 +57,7 @@ Si bajamos hasta abajo del todo veremos el link hacia la imagen del principio:
 Vamos a descargarla a nuestro equipo para continuar resolviendo la máquina.
 
 # Movimiento Lateral
-### Shell
+## Shell
 Para el siguiente paso utilizaremos la imagen descargada para ver si tiene algo escondido, para ello utilizaremos la herramienta **ExifTool** que nos permitirá ver los datos **EXIF** de la imagen.
 
 ```sh
@@ -95,7 +95,7 @@ Megapixels                      : 2.1
 
 ¡Ya podemos entrar a la máquina!
 
-### Subida de privilegios #1
+## Subida de privilegios #1
 Una vez como **Alicia** podemos seguir nuestro camino hacia el **control total** de la máquina, aunque antes debemos pasar por otros usuario.
 
 Listé todos los comandos que podía hacer dentro de la máquina:
@@ -139,7 +139,7 @@ emma@visions:/home/alicia$
 
 ¡Perfecto! Ya estamos como **Emma** en la máquina.
 
-### Subida de privilegios #2
+## Subida de privilegios #2
 Para el siguiente paso no es tan fácil como el anterior, tenemos que pensar un poco más para el siguiente paso.
 
 Veremos que en este caso no podemos listar los comandos disponibles para nosotros, por lo que no nos sirve de mucho.
@@ -161,7 +161,7 @@ Seleccioné la imagen y disminuí al máximo la exposición, estos fueron los re
 
 ¡Impresionante! Vemos que tenemos la contraseña de **Sophia** en texto claro, ¡qué bien!
 
-### Subida de privilegios #3
+## Subida de privilegios #3
 Una vez tengamos la sesión como **Sophia** podemos continuar con la escalada, para ello listaré los comandos disponibles para este usuario:
 
 ```sh
@@ -248,7 +248,7 @@ Session completed.
 
 Tras un rato de espera veremos que **John** nos encontró la contraseña. ¡Ya podemos entrar como **Isabella**!
 
-### Subida de privilegios #4
+## Subida de privilegios #4
 Bien, ya estamos en la recta final para poder ganar acceso total sobre la máquina.
 
 Ahora que estamos como **Isabella** realizaremos el mismo proceso que en los anteriores usuarios, listar los comandos disponibles:
