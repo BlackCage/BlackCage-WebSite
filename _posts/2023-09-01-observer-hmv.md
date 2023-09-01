@@ -4,7 +4,7 @@ title: Observer
 date: 2023-07-11
 author: BlackCage
 categories: [HackMyVM]
-tags: [HMV, Enumeration, LFI, Log Poisoning, RCE, Buffer Overflow]
+tags: [HMV, Enumeration, Brute Force, Credentials]
 ---
 
 # Observer [ Hack My VM ]
