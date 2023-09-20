@@ -56,6 +56,7 @@ Igual que antes, nos menciona otro directorio, esta vez llamado **`evendeeper`**
 Qué extraño, en el código fuente hay líneas sin nada y podemos desplazarnos mucho hacia abajo y hacia la derecha:
 
 ![morseUser](/assets/img/imgs/deeper/morseUser.png)
+
 ![HEXPassword](/assets/img/imgs/deeper/HEXPassword.png)
 
 Esto sí no me lo esperaba, un nombre de usuario en código **`morse`** y la contraseña en **`hexadecimal`**. Bueno, vayamos a ver cómo obtener el texto plano.
