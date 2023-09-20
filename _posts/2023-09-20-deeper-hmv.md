@@ -130,7 +130,7 @@ Vaya, vemos un fichero oculto llamado **`.bob.txt`**, curiosamente hay un usuari
 535746745247566c634556756233566e61413d3d
 ```
 
-No puede ser, otra cadena en hexadecimal. Se nota que este equipo tiene muy en mente las normas de seguridad. Vamos a ver qué es:
+No puede ser, otra cadena en **`hexadecimal`**. Se nota que este equipo tiene muy en mente las normas de seguridad. Vamos a ver qué es:
 
 ```sh
 ┌──(root㉿kali)-[~/Desktop/VMs/HMV/Deeper]
