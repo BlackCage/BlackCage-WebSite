@@ -44,7 +44,7 @@ Una vez entramos en la página no vemos nada interesante. Es una empresa dedicad
 Vemos que hay un panel para iniciar sesión, pero por desgracia no hay nada. Vamos a probar con **`GoBuster`**, una herramienta que nos permite hacer **`Fuzzing`** de manera rápida y sencilla, veamos qué podemos encontrar:
 
 ```shell
-──(root㉿kali)-[~/Desktop/VMs/HMV/Nebula]
+┌──(root㉿kali)-[~/Desktop/VMs/HMV/Nebula]
 └─# gobuster dir -u "http://192.168.1.104/" -w /usr/share/wordlists/external/SecLists/Discovery/Web-Content/directory-list-2.3-big.txt -x html,php,txt -b 404,503
 ===============================================================
 Gobuster v3.5
