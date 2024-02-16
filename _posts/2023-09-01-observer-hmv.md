@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Observer
-date: 2023-07-11
+date: 2023-09-01
 author: BlackCage
 categories: [HackMyVM]
 tags: [HMV, Enumeration, Brute Force, Credentials]
