@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deeper
-date: 2023-07-11
+date: 2023-09-20
 author: BlackCage
 categories: [HackMyVM]
 tags: [HMV, Enumeration, Cracking, Brute Force]
