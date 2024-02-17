@@ -14,6 +14,8 @@ tags: [HMV, Enumeration, Fuzzing, SQLI, Path Hijacking, SUID]
 </div>
 
 ## Reconocimiento
+
+---
 ### NMAP
 ```
 # Nmap 7.93 scan initiated Fri Feb 16 10:00:25 2024 as: nmap -sCV -p22,80 -oN targeted 192.168.1.104
@@ -86,6 +88,8 @@ Vemos que nos dice que, en caso de ser aceptados, recibiremos un e-mail con un l
 Nos lleva a un apartado donde podemos introducir un número y nos devuelve un resultado. Esto me suena un poco, tenemos una tabla y un **`input`**, tratemos de encontrar una inyección **`SQL`** (**`SQLI`**).
 
 ## Movimiento Lateral
+
+---
 ### Shell
 Tratemos de intentar averiguar si existe la vulnerabilidad antes mencionada. Para ello utilizaré **`SQLMap`**, una herramienta que nos permite automatizar el proceso de identificación y explotación de dicha vulnerabilidad:
 
