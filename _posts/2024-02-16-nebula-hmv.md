@@ -8,29 +8,6 @@ tags: [HMV, Enumeration, Fuzzing, SQLI, Path Hijacking, SUID]
 ---
 
 # Nebula [ Hack My VM ]
-<style>
-  .embedtool {
-    position: relative;
-    height: 0;
-    padding-top: 56%;
-    overflow: hidden;
-    max-width: 100%;
-  }
-
-  .embedtool iframe,
-  .embedtool object,
-  .embedtool embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .embedtool .fluid-vids {
-    position: initial !important
-  }
-</style>
 
 <div class="embedtool">
   <iframe src="https://www.youtube.com/embed/Gse3e7N9BXE" frameborder="0" allowfullscreen></iframe>
