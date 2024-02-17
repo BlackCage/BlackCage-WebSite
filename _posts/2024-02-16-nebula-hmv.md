@@ -7,7 +7,7 @@ categories: [HackMyVM]
 tags: [HMV, Enumeration, Fuzzing, SQLI, Path Hijacking, SUID]
 ---
 
-<center><h1>Nebula [ Hack My VM ]</h1></center>
+# Nebula [ Hack My VM ]
 
 <div class="embedtool">
   <iframe src="https://www.youtube.com/embed/Gse3e7N9BXE" frameborder="0" allowfullscreen></iframe>
