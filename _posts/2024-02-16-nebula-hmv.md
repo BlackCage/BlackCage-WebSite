@@ -13,6 +13,7 @@ tags: [HMV, Enumeration, Fuzzing, SQLI, Path Hijacking, SUID]
   <iframe src="https://www.youtube.com/embed/Gse3e7N9BXE" frameborder="0" allowfullscreen></iframe>
 </div>
 
+---
 # Reconocimiento
 ### NMAP
 ```
