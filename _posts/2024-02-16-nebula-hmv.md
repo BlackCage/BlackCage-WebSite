@@ -4,7 +4,7 @@ title: Nebula
 date: 2024-02-16
 author: BlackCage
 categories: [HackMyVM]
-tags: [HMV, Enumeration, Fuzzing, Cookies, Script]
+tags: [HMV, Enumeration, Fuzzing, SQLI, Path Hijacking, SUID]
 ---
 
 # Nebula [ Hack My VM ]
