@@ -8,8 +8,7 @@ tags: [HMV, Enumeration, Fuzzing, SQLI, Path Hijacking, SUID]
 ---
 
 # Nebula [ Hack My VM ]
-![light mode only](/assets/img/imgs/nebula/logo.jpg){: .light }
-![dark mode only](/assets/img/imgs/nebula/logo_black.png){: .dark }
+<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gse3e7N9BXE" title="Nebula CTF Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="1"></iframe></center>
 
 # Reconocimiento
 ### NMAP
@@ -260,6 +259,3 @@ root@laboratoryuser:~/autoScripts#
 ```
 
 ¡Genial! Ya tenemos el **`control total`** de la máquina. ¡Qué fácil!
-
----
-<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gse3e7N9BXE" title="Nebula CTF Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="1"></iframe></center>
