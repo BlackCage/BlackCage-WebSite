@@ -260,3 +260,5 @@ root@laboratoryuser:~/autoScripts#
 ```
 
 ¡Genial! Ya tenemos el **`control total`** de la máquina. ¡Qué fácil!
+
+Si te interesa ver el proceso en acción, asegúrate de revisar el video relacionado a continuación: [**Nebula CTF Walkthrough - Easy - Hack My VM (HMV)**](https://www.youtube.com/watch?v=Gse3e7N9BXE)
