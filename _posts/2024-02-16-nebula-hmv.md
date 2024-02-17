@@ -262,4 +262,4 @@ root@laboratoryuser:~/autoScripts#
 ¡Genial! Ya tenemos el **`control total`** de la máquina. ¡Qué fácil!
 
 ---
-Si te interesa ver el proceso en acción, asegúrate de revisar el video relacionado a continuación: [**Nebula CTF Walkthrough**](https://www.youtube.com/watch?v=Gse3e7N9BXE)
+<center><iframe width="320" height="180" src="https://www.youtube.com/watch?v=Gse3e7N9BXE" title="Nebula CTF Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="1"></iframe></center>
